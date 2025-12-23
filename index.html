@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoBite Restaurant</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+
+<body>
+
+<header class="hero">
+  <nav>
+    <h1 class="logo">NeoBite</h1>
+    <ul>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#order">Order</a></li>
+      <li><a href="#contact">Reserve</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero-text">
+    <h2>Future of Dining</h2>
+    <p>Luxury • Technology • Taste</p>
+    <button id="menuBtn">Explore Menu</button>
+  </div>
+</header>
+
+<section id="menu" class="menu">
+  <h2>Signature Dishes</h2>
+  <div class="cards">
+    <div class="card">🍔 Quantum Burger</div>
+    <div class="card">🍕 Neon Pizza</div>
+    <div class="card">🍣 Cyber Sushi</div>
+  </div>
+</section>
+
+<section id="order" class="order">
+  <h2>Order Online</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <select>
+      <option>Quantum Burger</option>
+      <option>Neon Pizza</option>
+      <option>Cyber Sushi</option>
+    </select>
+    <button>Place Order</button>
+  </form>
+</section>
+
+<footer id="contact">
+  <p>📍 Akosombo • 📞 024-XXX-XXXX</p>
+  <p>© 2025 NeoBite Restaurant</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

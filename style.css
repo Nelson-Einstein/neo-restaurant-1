@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b0b0b;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  padding: 30px;
+  background: linear-gradient(135deg, #020024, #090979, #00d4ff);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  color: #00fff0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: #00fff0;
+  text-decoration: none;
+}
+
+.hero-text {
+  margin-top: 150px;
+}
+
+.hero-text h2 {
+  font-size: 3.5rem;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  background: #00fff0;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* MENU */
+.menu {
+  padding: 80px 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 20px;
+  flex: 1;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #00fff0;
+}
+
+/* ORDER */
+.order {
+  padding: 80px 20px;
+  background: #111;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* FOOTER */
+footer {
+  padding: 30px;
+  text-align: center;
+  background: #000;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
+}
